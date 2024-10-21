@@ -1,0 +1,21 @@
+<div class="navbar bg-base-300 mb-3" *ngIf="router.url !== '/slides'">
+  <div class="flex-1 px-2 lg:flex-none">
+    <a [routerLink]="['/home']" class="text-lg font-bold">Portal Monorepo Nx & Angular</a>
+  </div>
+  <div class="flex flex-1 justify-end px-2">
+    <div class="flex items-stretch">
+      <a [routerLink]="['/home']" routerLinkActive="router-link-active" class="btn btn-ghost rounded-btn">Home</a>
+      <a [routerLink]="['/home/about']" routerLinkActive="router-link-active" class="btn btn-ghost rounded-btn">Sobre</a>
+      <div class="dropdown dropdown-end">
+        <div tabindex="0" role="button" class="btn btn-ghost rounded-btn">Tarefas</div>
+        <ul
+          tabindex="0"
+          class="menu dropdown-content bg-base-100 rounded-box z-[1] mt-4 w-52 p-2 shadow">
+          <li><a [routerLink]="['/tasks/create-task']">Criar</a></li>
+          <li><a [routerLink]="['/tasks']">Listar</a></li>
+        </ul>
+      </div>
+    </div>
+    <lib-dark-mode></lib-dark-mode>
+  </div>
+</div>
