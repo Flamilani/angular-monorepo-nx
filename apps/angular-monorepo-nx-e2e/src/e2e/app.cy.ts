@@ -1,13 +1,18 @@
-import { getGreeting } from '../support/app.po';
-
 describe('angular-monorepo-nx-e2e', () => {
   beforeEach(() => cy.visit('/'));
 
-  it('should display welcome message', () => {
-    // Custom command example, see `../support/commands.ts` file
-    cy.login('my-email@something.com', 'myPassword');
-
-    // Function helper example, see `../support/app.po.ts` file
-    getGreeting().contains(/Welcome/);
+  it('Verifies lib-header component is present', () => {
+    cy.visit('/'); // replace "/" with the path to your page
+    cy.get('lib-header').should('exist');
   });
+
+  it('Verifies lib-footer component is present', () => {
+    cy.visit('/'); // replace "/" with the path to your page
+    cy.get('lib-footer').should('exist');
+  });
+
+  it('Verifies router-outlet component is present', () => {
+    cy.visit('/'); // replace "/" with the path to your page
+    cy.get('router-outlet').should('exist');
+  })
 });

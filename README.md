@@ -1,82 +1,81 @@
-# AngularMonorepoNx
+# Projeto Portal com Monorepo Nx, Angular, Tailwind e DaisyUI
 
-<a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
+Este é um projeto de portal desenvolvido com o framework Angular, utilizando o monorepo Nx para gerenciar o projeto e as dependências. O projeto utiliza o Tailwind CSS para estilização e o DaisyUI para facilitar a criação de componentes.
 
-✨ Your new, shiny [Nx workspace](https://nx.dev) is almost ready ✨.
+✨ Seu novo e brilhante [Nx workspace](https://nx.dev) está quase pronto ✨.
 
-[Learn more about this workspace setup and its capabilities](https://nx.dev/getting-started/tutorials/angular-monorepo-tutorial?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
+[Aprenda mais sobre essa configuração do espaço de trabalho e suas capacidades](https://nx.dev/getting-started/tutorials/angular-monorepo-tutorial?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects) ou execute `npx nx graph` para explorar visualmente o que foi criado. Agora, vamos começar!
 
-## Finish your CI setup
+## Conclua a configuração do CI
+[Clique aqui para concluir a configuração do seu espaço de trabalho!](https://cloud.nx.app/connect/8qSvoDN7Us)
 
-[Click here to finish setting up your workspace!](https://cloud.nx.app/connect/8qSvoDN7Us)
+## Tecnologias Utilizadas
+<a alt="Angular logo" href="https://angular.dev/" target="_blank" rel="noreferrer"><img src="https://seeklogo.com/images/A/angular-icon-logo-5FC0C40EAC-seeklogo.com.png" width="35"></a> <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="55" style="margin-left: 15px"></a> 
 
+- **Angular**: framework de desenvolvimento de aplicativos web.
+- **Tailwind CSS**: biblioteca de estilização CSS.
+- **DaisyUI**: biblioteca de componentes do Tailwind CSS.
+-  **Monorepo Nx**: ferramenta de gerenciamento de projetos.
 
-## Run tasks
-
-To run the dev server for your app, use:
+## Execute tarefas
+Para executar o servidor de desenvolvimento para o seu aplicativo, use:
 
 ```sh
 npx nx serve angular-monorepo-nx
 ```
 
-To create a production bundle:
+Para criar um pacote de produção:
 
 ```sh
 npx nx build angular-monorepo-nx
 ```
 
-To see all available targets to run for a project, run:
+Para ver todas as tarefas disponíveis para executar em um projeto, execute:
 
 ```sh
 npx nx show project angular-monorepo-nx
 ```
 
-These targets are either [inferred automatically](https://nx.dev/concepts/inferred-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or defined in the `project.json` or `package.json` files.
+Essas tarefas são [inferidas automaticamente](https://nx.dev/concepts/inferred-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) ou definidas nos arquivos `project.json` ou `package.json`.
 
-[More about running tasks in the docs &raquo;](https://nx.dev/features/run-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+[Mais sobre a execução de tarefas na documentação &raquo;](https://nx.dev/features/run-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
 
-## Add new projects
+## Adicione novos projetos
 
-While you could add new projects to your workspace manually, you might want to leverage [Nx plugins](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) and their [code generation](https://nx.dev/features/generate-code?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) feature.
+Embora você possa adicionar novos projetos ao seu espaço de trabalho manualmente, você pode aproveitar os [plugins do Nx](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) e sua [funcionalidade de geração de código](https://nx.dev/features/generate-code?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects).
 
-Use the plugin's generator to create new projects.
+Use o gerador do plugin para criar novos projetos.
 
-To generate a new application, use:
+Para gerar um novo aplicativo, use:
 
 ```sh
 npx nx g @nx/angular:app demo
 ```
 
-To generate a new library, use:
+Para gerar uma nova biblioteca, use:
 
 ```sh
 npx nx g @nx/angular:lib mylib
 ```
 
-You can use `npx nx list` to get a list of installed plugins. Then, run `npx nx list <plugin-name>` to learn about more specific capabilities of a particular plugin. Alternatively, [install Nx Console](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) to browse plugins and generators in your IDE.
+Você pode usar `npx nx list` para obter uma lista de plugins instalados. Em seguida, execute `npx nx list <nome-do-plugin>` para aprender mais sobre as capacidades específicas de um plugin em particular. Como alternativa, [instale o Nx Console](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) para navegar pelos plugins e geradores no seu IDE.
 
-[Learn more about Nx plugins &raquo;](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) | [Browse the plugin registry &raquo;](https://nx.dev/plugin-registry?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+[Aprenda mais sobre os plugins do Nx &raquo;](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) | [Navegue pelo registro de plugins &raquo;](https://nx.dev/plugin-registry?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+
+[Aprenda mais sobre o Nx no CI](https://nx.dev/ci/intro/ci-with-nx#ready-get-started-with-your-provider?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
 
 
-[Learn more about Nx on CI](https://nx.dev/ci/intro/ci-with-nx#ready-get-started-with-your-provider?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+## Instale o Nx Console
 
-## Install Nx Console
+O Nx Console é uma extensão do editor que enriquece a experiência do desenvolvedor. Ele permite executar tarefas, gerar código e melhora a autocompletar de código no seu IDE. Ele está disponível para o VSCode e o IntelliJ.
 
-Nx Console is an editor extension that enriches your developer experience. It lets you run tasks, generate code, and improves code autocompletion in your IDE. It is available for VSCode and IntelliJ.
+[Instale o Nx Console &raquo;](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
 
-[Install Nx Console &raquo;](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+## Links úteis
 
-## Useful links
-
-Learn more:
+Aprenda mais:
 
 - [Learn more about this workspace setup](https://nx.dev/getting-started/tutorials/angular-monorepo-tutorial?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects)
 - [Learn about Nx on CI](https://nx.dev/ci/intro/ci-with-nx?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
 - [Releasing Packages with Nx release](https://nx.dev/features/manage-releases?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
 - [What are Nx plugins?](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-
-And join the Nx community:
-- [Discord](https://go.nx.dev/community)
-- [Follow us on X](https://twitter.com/nxdevtools) or [LinkedIn](https://www.linkedin.com/company/nrwl)
-- [Our Youtube channel](https://www.youtube.com/@nxdevtools)
-- [Our blog](https://nx.dev/blog?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
