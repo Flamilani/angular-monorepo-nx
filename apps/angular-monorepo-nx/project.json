@@ -27,9 +27,7 @@
           }
         ],
         "styles": [
-          "apps/angular-monorepo-nx/src/styles.scss",
-          "node_modules/reveal.js/dist/reveal.css",
-          "node_modules/reveal.js/dist/theme/moon.css"
+          "apps/angular-monorepo-nx/src/styles.scss"
         ],
         "scripts": []
       },
@@ -47,7 +45,11 @@
               "maximumError": "4kb"
             }
           ],
-          "outputHashing": "all"
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "aot": true
         },
         "development": {
           "optimization": false,
