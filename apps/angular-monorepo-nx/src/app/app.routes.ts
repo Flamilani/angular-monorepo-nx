@@ -5,6 +5,10 @@ export const appRoutes: Route[] = [
     path: '', pathMatch: 'full', redirectTo: 'home'
   },
   {
+    path: 'admin',
+    loadChildren: () => import('@angular-monorepo-nx/admin').then((m) => m.AdminModule),
+  },
+  {
     path: 'home',
     loadChildren: () => import('@angular-monorepo-nx/home').then((m) => m.HomeModule),
   },

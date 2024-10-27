@@ -17,7 +17,8 @@
     "paths": {
       "@angular-monorepo-nx/admin": ["libs/admin/src/index.ts"],
       "@angular-monorepo-nx/home": ["libs/home/src/index.ts"],
-      "@angular-monorepo-nx/layouts": ["libs/layouts/src/index.ts"]
+      "@angular-monorepo-nx/layouts": ["libs/layouts/src/index.ts"],
+      "@angular-monorepo-nx/share": ["libs/share/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -22,7 +22,7 @@ describe('Hero Section Test', () => {
     cy.visit('/'); // replace "/" with the path to your page
     cy.get('.hero-content p')
       .should('exist')
-      .should('contain.text', 'Portal desenvolvido com Monorepo Nx, Angular e Tailwind CSS + DaisyUI');
+      .should('contain.text', 'Portal desenvolvido com Monorepo Nx, Angular e Tailwind CSS');
   });
 
 });

@@ -1,8 +1,26 @@
 <div class="flex flex-col w-80 mb-3 align-center">
   <h2 class="my-5 font-black">Criar nova tarefa</h2>
-  <form id="data-form">
-      <input type="text" placeholder="Digite tarefa" id="data-input" class="input input-bordered w-full max-w-xs" />
-      <button type="submit" class="btn btn-primary mt-3">Criar</button>
+  <form id="data-form" autocomplete="off">
+    <div class="flex">
+      <div class="flex-1 w-64">
+        <input type="text" placeholder="Digite tarefa" id="data-input" class="input input-bordered input-primary mr-3" />
+      </div>
+      <div class="flex-1 w-64">
+        <select class="select select-primary mr-3">
+          <option disabled selected>Categorias</option>
+          @for (category of categories; track category.id) {
+          <option>{{ category.name }}</option>
+          }
+        </select>
+      </div>
+      <div class="flex-1 w-64">
+        <span class="tooltip" data-tip="Criar nova tarefa">
+          <button type="button" class="btn btn-primary">
+            <i class="fa fa-plus"></i>
+          </button>
+        </span>
+      </div>
+    </div>
   </form>
 </div>
 
