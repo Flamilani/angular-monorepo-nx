@@ -1,5 +1,62 @@
-.reveal {
-  width: 1280px; /* largura em pixels */
-  height: 720px; /* altura em pixels */
-  margin: 0 auto; /* centraliza a apresentação */
+.img-radius {
+  border-radius: 50%;
+  height: 450px;
+  margin: 0 auto 4rem auto;
+}
+
+.img-template {
+  width: 730px;
+  margin-top: -10px !important;
+}
+
+.left-content {
+  float: left;
+  z-index: -10;
+  width: 50%;
+  font-size: 28px;
+  text-align: justify;
+  line-height: 55px;
+}
+
+.right-content {
+margin: 10px 0 15px 0;
+float: right;
+z-index: -10;
+width: 48%;
+line-height: 1.5;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-30 {
+  font-size: 30px;
+}
+
+strong {
+  color: #2f2bff;
+}
+
+.box-content {
+  background: #5d5d5d;
+  padding: 30px;
+  font-size: 30px;
+}
+
+.line-height {
+  line-height: 70px;
+}
+
+.left-title {
+  float: left;
+}
+
+.no-list {
+  list-style-type: none !important;
+  line-height: 80px;
 }

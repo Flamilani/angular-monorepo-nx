@@ -3,12 +3,14 @@ import { CommonModule } from '@angular/common';
 import { LoginComponent } from './login/login.component';
 import { AdminRoutingModule } from './admin-routing.module';
 import { RouterModule } from '@angular/router';
+import { ShareModule } from '@angular-monorepo-nx/share';
 
 @NgModule({
   imports: [
     RouterModule,
     CommonModule,
-    AdminRoutingModule
+    AdminRoutingModule,
+    ShareModule
   ],
   declarations: [LoginComponent],
 })

@@ -16,7 +16,7 @@ export class DataStoreService {
     return of(this.categories);
   }
 
-  getTasks() {
+/*   getTasks() {
     return of(this.tasks);
   }
 
@@ -29,5 +29,5 @@ export class DataStoreService {
     };
 
     this.tasks.push(newTask);
-  }
+  } */
 }

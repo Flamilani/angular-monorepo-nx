@@ -1,8 +1,5 @@
 const { createGlobPatternsForDependencies } = require('@nx/angular/tailwind');
-const { projectRootDir }  = require('@nx/workspace');
 const { join } = require('path');
-
-console.log(JSON.stringify(projectRootDir))
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
