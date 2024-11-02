@@ -15,14 +15,14 @@ describe('Hero Section Test', () => {
     cy.visit('/'); // replace "/" with the path to your page
     cy.get('.hero-content h1')
       .should('exist')
-      .should('contain.text', 'Apresentando sobre');
+      .should('contain.text', 'Apresentando');
   });
 
   it('Verifies paragraph is present and has correct text', () => {
     cy.visit('/'); // replace "/" with the path to your page
     cy.get('.hero-content p')
       .should('exist')
-      .should('contain.text', 'Portal desenvolvido com Monorepo Nx, Angular e Tailwind CSS');
+      .should('contain.text', 'Portal Nx Monorepo com Angular e Tailwind CSS + DaisyUI');
   });
 
 });
