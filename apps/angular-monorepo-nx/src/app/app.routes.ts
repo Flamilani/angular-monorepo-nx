@@ -16,8 +16,4 @@ export const appRoutes: Route[] = [
     path: 'tasks',
     loadChildren: () => import('@angular-monorepo-nx/home').then((m) => m.TasksModule),
   },
-  {
-    path: 'slides',
-    loadChildren: () => import('@angular-monorepo-nx/home').then((m) => m.SlidesModule),
-  },
 ];

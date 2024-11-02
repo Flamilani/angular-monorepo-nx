@@ -30,20 +30,5 @@ module.exports = [
     files: ['**/*.html'],
     // Override or add rules here
     rules: {},
-    plugins: ['prettier'],
-    extends: ['plugin:prettier/recommended'],
-    settings: {
-      'prettier/prettier': {
-        // Configurações do Prettier
-        printWidth: 80,
-        tabWidth: 2,
-        useTabs: false,
-        semi: true,
-        singleQuote: true,
-        trailingComma: 'all',
-        bracketSpacing: true,
-        arrowParens: 'avoid',
-      },
-    },
   },
 ];

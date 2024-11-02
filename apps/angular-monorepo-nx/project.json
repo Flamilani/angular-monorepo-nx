@@ -27,9 +27,7 @@
           }
         ],
         "styles": [
-          "apps/angular-monorepo-nx/src/styles.scss",
-          "node_modules/reveal.js/dist/reveal.css",
-          "node_modules/reveal.js/dist/theme/night.css"
+          "apps/angular-monorepo-nx/src/styles.scss"
         ],
         "scripts": []
       },
