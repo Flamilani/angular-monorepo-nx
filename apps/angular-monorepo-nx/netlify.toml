@@ -1,4 +1,4 @@
 [[redirects]]
   from = "/*"
-  to = "/apps/angular-monorepo-nx"
+  to = "/index.html"
   status = 200
