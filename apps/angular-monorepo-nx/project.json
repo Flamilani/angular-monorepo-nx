@@ -98,5 +98,6 @@
         "spa": true
       }
     }
-  }
+  },
+  "defaultProject": "angular-monorepo-nx"
 }
