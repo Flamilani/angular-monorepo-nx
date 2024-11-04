@@ -1,0 +1,22 @@
+[NX Daemon Server] - 2024-11-04T02:48:17.013Z - Started listening on: \\.\pipe\nx\C:\Users\SAMSUNG\AppData\Local\Temp\293b78779ad36de9bc11\d.sock
+[NX Daemon Server] - 2024-11-04T02:48:17.021Z - [WATCHER]: Subscribed to changes within: d:\Documentos\apresentacao_2024\projeto\angular-monorepo-nx (native)
+[NX Daemon Server] - 2024-11-04T02:48:17.029Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-04T02:48:17.031Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-04T02:48:17.036Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-04T02:48:17.040Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-11-04T02:48:17.043Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-11-04T02:48:17.057Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 17.
+[NX Daemon Server] - 2024-11-04T02:48:17.058Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-04T02:48:17.058Z - [WATCHER]: Stopping the watcher for d:\Documentos\apresentacao_2024\projeto\angular-monorepo-nx (sources)
+[NX Daemon Server] - 2024-11-04T02:48:17.058Z - [WATCHER]: Stopping the watcher for d:\Documentos\apresentacao_2024\projeto\angular-monorepo-nx (outputs)
+[NX Daemon Server] - 2024-11-04T02:48:17.858Z - Started listening on: \\.\pipe\nx\C:\Users\SAMSUNG\AppData\Local\Temp\293b78779ad36de9bc11\d.sock
+[NX Daemon Server] - 2024-11-04T02:48:17.865Z - [WATCHER]: Subscribed to changes within: d:\Documentos\apresentacao_2024\projeto\angular-monorepo-nx (native)
+[NX Daemon Server] - 2024-11-04T02:48:17.871Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-04T02:48:17.873Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-04T02:48:17.879Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-04T02:48:17.883Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-11-04T02:48:17.887Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-11-04T02:48:17.888Z - Handled FORCE_SHUTDOWN. Handling time: 1. Response time: 5.
+[NX Daemon Server] - 2024-11-04T02:48:17.888Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-04T02:48:17.889Z - [WATCHER]: Stopping the watcher for d:\Documentos\apresentacao_2024\projeto\angular-monorepo-nx (sources)
+[NX Daemon Server] - 2024-11-04T02:48:17.889Z - [WATCHER]: Stopping the watcher for d:\Documentos\apresentacao_2024\projeto\angular-monorepo-nx (outputs)
