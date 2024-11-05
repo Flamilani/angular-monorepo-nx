@@ -5,7 +5,7 @@ import { LayoutsModule } from '@angular-monorepo-nx/layouts';
 import { InputComponent } from './input/input.component';
 
 @NgModule({
-  imports: [CommonModule, LayoutsModule],
+  imports: [CommonModule],
   exports: [LayoutsModule],
   providers: [DataStoreService],
   declarations: [InputComponent],
