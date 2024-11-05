@@ -3,6 +3,7 @@ import { cCategocies } from '../../constants/category.constant';
 import { of } from 'rxjs';
 import { ICategory } from '../../interfaces/category.interface';
 import { iTask } from '../../interfaces/task.interface';
+import { cTasks } from '../../constants/tasks.constant';
 
 @Injectable({
   providedIn: 'root'
@@ -10,24 +11,14 @@ import { iTask } from '../../interfaces/task.interface';
 export class DataStoreService {
 
   categories = cCategocies;
-  tasks = [];
+  tasks = cTasks;
 
   listCategories() {
     return of(this.categories);
   }
 
-/*   getTasks() {
+   getTasks() {
     return of(this.tasks);
-  }
+   }
 
-  createTask(taskName: string, categoryId: ICategory) {
-    const newTask: iTask = {
-      id: this.tasks.length + 1,
-      name: taskName,
-      categoryId: categoryId,
-      completed: false
-    };
-
-    this.tasks.push(newTask);
-  } */
 }

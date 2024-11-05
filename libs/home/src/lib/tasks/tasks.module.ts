@@ -6,9 +6,11 @@ import { HomeModule } from '../home.module';
 import { TasksComponent } from './tasks.component';
 
 import { ShareModule } from '@angular-monorepo-nx/share';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { TaskCreateComponent } from './task-create/task-create.component';
 
 @NgModule({
-  declarations: [TasksComponent],
-  imports: [CommonModule, TasksRoutingModule, HomeModule, ShareModule],
+  declarations: [TasksComponent, TaskCreateComponent],
+  imports: [CommonModule, TasksRoutingModule, FormsModule, ReactiveFormsModule, HomeModule, ShareModule]
 })
 export class TasksModule {}

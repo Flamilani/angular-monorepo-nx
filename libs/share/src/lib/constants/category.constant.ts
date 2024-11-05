@@ -5,7 +5,7 @@ export const cCategocies = [
   },
   {
     id: 2,
-    name: 'Reunioes',
+    name: 'Lazer',
   },
   {
     id: 3,

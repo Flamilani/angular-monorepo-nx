@@ -1,11 +1,12 @@
 import { ShareModule } from '@angular-monorepo-nx/share';
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Router, RouterModule } from '@angular/router';
 
 @Component({
   standalone: true,
-  imports: [CommonModule, RouterModule, ShareModule],
+  imports: [CommonModule, RouterModule, ShareModule, ReactiveFormsModule, FormsModule],
   selector: 'app-root',
   template: ` <article>
     <lib-header></lib-header>
